@@ -2,19 +2,22 @@
 
 
 
-![alt text](https://i.ibb.co/M17kd0x/Rickand.jpg)
+![alt text](https://ibb.pics/bm6GkDF/nukenzie.jpg)
+<br/>
+![alt text](https://ibb.pics/1YgcQgB/Nukenzie-pag2.jpg)
+
 
 # :bulb: Descrição
 
-Rick and Morty é uma aplicação que traz os personagens da série e o status desses personagens, fazendo o uso de uma API externa.
+Nukenzie é uma aplicação de organização financeira, onde o usuário pode listar entradas e despesas e checar seu saldo final.
 
 # :link: Link da aplicação
 
-https://react-atividade-s1-buscando-mais-personagens-danielkleira.vercel.app/
+https://react-entrega-s1-nu-kenzie-danielkleira.vercel.app/
 
 # :computer: Tecnologias / Bibliotecas Utilizadas
 
-- HTML5
+
 - CSS3
 - JavaScript
 - React

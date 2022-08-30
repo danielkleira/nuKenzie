@@ -6,6 +6,8 @@ import TotalMoney from './components/TotalMoney';
 import Form from './components/Form';
 import Pagina from './components/Pagina';
 import Header from './components/Header';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 
 
@@ -56,10 +58,21 @@ function App() {
 
   return (
     <div className="App">
+      
       {pagina === false ?(
         <Pagina setPagina={setPagina}/>
       ):(
         <header className='App-header'>
+          <ToastContainer
+              position="top-right"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover/>
           <div className='cabecalho'>
           <Header setPagina={setPagina}/>
           </div>

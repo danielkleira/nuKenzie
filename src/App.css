@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50vw;
+  width: 40vw;
   height: 351px;
   
 }
@@ -40,7 +40,7 @@
 .colunaLista{
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 40vw;
 }
 
 .headerLista{
