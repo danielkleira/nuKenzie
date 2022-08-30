@@ -1,0 +1,223 @@
+#root{
+  width: 100vw;
+}
+
+.App-header {
+  background-color: #ffffff;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  font-size: 12px;
+  gap: 30px;
+}
+.App{
+  width: 100vw;
+}
+
+.cabecalho{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.conteudo{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.colunaForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 351px;
+  
+}
+
+.colunaLista{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.headerLista{
+  display: flex;
+  flex-direction: row;
+  gap:30%;
+  align-items: center;
+  width: 100%;
+}
+
+.resumo{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.botoes{
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+  width: 180px;
+}
+
+.lista{
+  width: 100%;
+}
+
+.btnTodos{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 92px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #E9ECEF;
+  border: 1.4px solid #E9ECEF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  color: #868E96;
+}
+
+.btnEntrada{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 92px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #E9ECEF;
+  border: 1.4px solid #E9ECEF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  color: #868E96;
+}
+
+.btnSaida{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 92px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #E9ECEF;
+  border: 1.4px solid #E9ECEF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  color: #868E96;
+}
+
+.btnTodos:hover{
+  background-color: #FD377E ;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.btnEntrada:hover{
+  background-color: #FD377E ;
+  color: white;
+  cursor: pointer;
+}
+
+.btnSaida:hover{
+  background-color: #FD377E ;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 920px){
+
+  .colunaForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 363px;
+    height: 351px;    
+    
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .colunaLista{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+
+
+}
+
+
+
+@media (max-width: 738px){
+  .headerLista{
+    display: flex;
+    gap:30%;
+    align-items: center;
+    width: 100%;
+  }
+  .colunaForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 363px;
+    height: 351px;
+    
+    
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+
+
+
+}
+
+@media (max-width:440px){
+  .headerLista{
+    display: flex;
+    flex-direction: column;
+    gap:30%;
+    align-items: center;
+    width: 100%;
+  }
+
+}
+
+
+
+

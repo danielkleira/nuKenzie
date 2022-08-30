@@ -1,0 +1,246 @@
+.Form{
+    width: 363px;
+    height: 351px;
+    border-radius: 8px;    
+}
+
+input{
+    background-color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+    width: 128px;
+    height: 48px;
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+select{
+    background-color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+.exemplo{
+    font-size: 12px;
+    color: #868E96
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.Valor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 303px;
+    
+}
+
+
+.select{
+    display: flex;
+    width: 128px;
+    height: 48px;
+    color: #868E96;
+}
+
+.botaoAdd{
+    background-color: #fd377e;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    height: 48px;
+    width: 314px;
+}
+
+.InputDescricao{
+    width: 314px;
+    height: 52.8px ;
+    background-color: #F8F9FA;
+}
+
+.InputValor{
+    font-size: 16px;
+}
+
+@media screen and  (max-width: 920px){
+    .Form{
+        width: 363px;
+        height: 351px;
+        border-radius: 8px;    
+    }
+    
+    input{
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 8px;
+        width: 128px;
+        height: 48px;
+        margin-left: 3px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    
+    select{
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 8px;
+    }
+    
+    .exemplo{
+        font-size: 12px;
+        color: #868E96
+    }
+    
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 3px;
+    }
+    
+    .Valor{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 303px;
+        
+    }
+    
+    
+    .select{
+        display: flex;
+        width: 128px;
+        height: 48px;
+        color: #868E96;
+    }
+    
+    .botaoAdd{
+        background-color: #fd377e;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px;
+        height: 48px;
+        width: 314px;
+    }
+
+    .botaoAdd:hover{
+        cursor: pointer;
+    }
+
+    
+    .InputDescricao{
+        width: 314px;
+        height: 52.8px ;
+        background-color: #F8F9FA;
+    }
+    
+    .InputValor{
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media screen and  (max-width: 600px){
+
+    .Form{
+        width: 303px;
+        height: 351px;
+        border-radius: 8px;   
+         
+    }
+    
+    input{
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 8px;
+        width: 128px;
+        height: 48px;
+        margin-left: 3px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    select{
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    
+    .exemplo{
+        font-size: 12px;
+        color: #868E96
+    }
+    
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 3px;
+    }
+    
+    .Valor{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 303px;
+        
+    }
+    
+    
+    .select{
+        display: flex;
+        width: 128px;
+        height: 48px;
+        color: #868E96;
+    }
+    
+    .botaoAdd{
+        background-color: #fd377e;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px;
+        height: 48px;
+        width: 314px;
+    }
+    
+    .InputDescricao{
+        width: 314px;
+        height: 52.8px ;
+        background-color: #F8F9FA;
+    }
+    
+    .InputValor{
+        font-size: 16px;
+    }
+  
+}

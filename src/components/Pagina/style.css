@@ -1,0 +1,75 @@
+.pagina{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #212529;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 500;
+}
+
+span{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.informacoes{
+    width: 300px;
+    text-align: left;
+}
+
+.iniciar{
+    width: 166px;
+    height: 44px;
+    background-color: #FD377E;
+    border: 2px solid #FD377E;
+    border-radius: 8px;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+@media screen and (max-width: 920px){
+.imagemLado{
+    width: 100%;
+}
+figure{
+    width: 35vw;
+}
+.itemFigura{
+    width: 40%;
+}
+.pagina{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #212529;
+}
+
+}
+
+
+@media screen and  (max-width: 600px){
+    .imagemLado{
+        display: none;
+    }
+    .itemFigura{
+        display: none;
+    }
+
+    .informacoes{
+        width: 300px;
+        font-size: 10vw;
+        text-align: center;
+    }
+    
+}

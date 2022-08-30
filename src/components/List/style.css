@@ -1,0 +1,24 @@
+.card{
+    padding: 0;
+    width: 100%;
+    max-width:100%;
+}
+
+.semTitulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #868E96;
+    margin-left: 15px;
+    max-width: 50vw;
+}
+
+.image{
+    max-width: 50vw;
+}
+
+
+
+@media screen and  (max-width: 920px){
+}

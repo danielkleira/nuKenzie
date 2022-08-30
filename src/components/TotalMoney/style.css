@@ -1,0 +1,28 @@
+.dinheiro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 363px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.dinheiroTotal{
+    font-size: 16px;
+}
+
+.dinheiro>span{
+    color: #fd377e;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+@media screen and  (max-width: 920px){
+}
