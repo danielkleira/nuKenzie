@@ -2,9 +2,11 @@
 
 
 
-![alt text](https://ibb.pics/bm6GkDF/nukenzie.jpg)
+![alt text](https://ibb.pics/zFzDVrY/nukenzie.jpg)
 <br/>
-![alt text](https://ibb.pics/1YgcQgB/Nukenzie-pag2.jpg)
+
+![alt text](https://ibb.pics/89BNsHJ/Nukenzie-pag2.jpg)
+
 
 
 # :bulb: Descrição
