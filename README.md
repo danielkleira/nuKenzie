@@ -15,7 +15,7 @@ Nukenzie é uma aplicação de organização financeira, onde o usuário pode li
 
 # :link: Link da aplicação
 
-https://react-entrega-s1-nu-kenzie-danielkleira.vercel.app/
+https://nu-kenzie-danielkleira.vercel.app/
 
 # :computer: Tecnologias / Bibliotecas Utilizadas
 
